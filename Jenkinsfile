@@ -75,7 +75,7 @@ pipeline{
         stage("Trigger CD Pipeline") {
             steps {
                 script {
-                    sh "curl -v -k --user fayssal:fayssal -X POST -H 'cache-control: no-cache' -H 'content-type: application/x-www-form-urlencoded' --data 'IMAGE_TAG=${IMAGE_TAG}' 'http://41.251.63.134:8080/job/gitops-e2e-ci-cd-pipeline/buildWithParameters?token=gitops-token'"
+                    sh "curl -v -k --user noreply:noreply -X POST -H 'cache-control: no-cache' -H 'content-type: application/x-www-form-urlencoded' --data 'IMAGE_TAG=${IMAGE_TAG}' 'http://41.251.63.134:8080/job/gitops-e2e-ci-cd-pipeline/buildWithParameters?token=gitops-token'"
                 }
             }
 
