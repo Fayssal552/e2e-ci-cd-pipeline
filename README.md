@@ -1,6 +1,8 @@
 # End to End CI CD Pipeline
 Once the CI/CD pipeline is set up, any new code commits pushed to the `main` branch on GitHub will trigger the pipeline. Jenkins will build the application, and SonarQube will analyze the code quality. The Docker image will be pushed to DockerHub, and Argo CD will automatically deploy the application to your Kubernetes cluster.
 
+-  Blog Link : [Installation and Usage Guide](https://victorious-peace-7a9.notion.site/E2E-CI-CD-Pipeline-e1d67b9b5c2a4189a32f7f097eadd591?pvs=4).
+
 # Project Description
 
 The project involves building and deploying a Java application using a CI/CD pipeline. The following steps are involved in the process:
