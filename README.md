@@ -3,6 +3,8 @@ Once the CI/CD pipeline is set up, any new code commits pushed to the `main` bra
 
 -  Blog Link : [Installation and Usage Guide](https://victorious-peace-7a9.notion.site/E2E-CI-CD-Pipeline-e1d67b9b5c2a4189a32f7f097eadd591?pvs=4).
 
+![Diapositive1.JPG](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b4c43794-2fc2-4bd4-8f4a-d500bf519a92/Diapositive1.jpg)
+
 # Project Description
 
 The project involves building and deploying a Java application using a CI/CD pipeline. The following steps are involved in the process:
